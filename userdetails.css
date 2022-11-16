@@ -1,0 +1,131 @@
+html {
+  height: 100%;
+}
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: "Poppins" , sans-serif;
+}
+body {
+  margin:0;
+  padding: 10px 10px 10px;;
+  font-family: sans-serif;
+  min-height: 10vh;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.login-box {
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  perspective: 270px;
+  width: 600px;
+  height:600px;
+  padding: 50px;
+  transform: translate(-50%, -50%);
+  background: rgba(104, 46, 211, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+.user-box{
+  color: #fff;
+  margin-bottom: 10px;
+}
+  p.user-no{
+    margin-top: -10px;
+    margin-left: 10px;
+    
+  }
+  #accountNo{
+    margin-top: -58px;
+    margin-left:200px;
+    font-weight: 900;
+    
+  }
+  #userName {
+    margin-left: 200px;
+    margin-top: -58px;
+    font-weight: 900;
+    font-weight: 900;
+  
+    
+  }
+   #userAge{
+    margin-left:200px;
+    margin-top: -60px;
+    font-weight: 900;
+  }
+   #userEmail{
+    margin-left:200px;
+    margin-top: -58px;
+    font-weight: 900;
+  }
+  #userAdderss{
+    margin-left: 200px;
+    margin-top:-58px;
+    text-decoration: none;
+    font-weight: 900;
+  }
+  p{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-top:-10px;
+    margin-left: 10px;
+    font-weight: 900;
+
+  }
+  #userBalance {
+    color: #e40606;
+    font-size: x-large;
+    margin-left:200px;
+    margin-top: -60px;
+    font-weight: 900;
+  }
+  .head-box{
+    padding: 9px;
+    color: #ff0000;
+  }
+  
+  .login-box h2 {
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex;
+    align-items:center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  .user-box{
+    padding:10px ;
+    margin: -1px;
+    margin-top: -19px;
+
+  }
+  .head-dark {
+    font-weight:700;
+    font-size: larger;
+    color: black;
+    text-align: center;
+
+  }
+  
+  
+   
